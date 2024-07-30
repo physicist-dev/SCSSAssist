@@ -1,0 +1,21 @@
+.flexRow{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.flexCol{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.gridAuto{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(auto, 1fr);
+}
+
+.displayNone{display: none;}
+
