@@ -1,3 +1,13 @@
+/*
+    Resets margin padding to zero.
+    Removes text decoration of <a> & <ul>
+    font-size = 62.5% changes default font size; that is 1 rem is 10px 
+    16px is default size 10/16 == 62.5%
+    New default font-size is 10px (is done for simplification)
+    Have added color-scheme light-dark
+    Based on browser setting one color is selected
+*/
+
 @mixin reset{
     *,::after,::before{
         margin: 0;
@@ -19,7 +29,5 @@
 
     body{
         box-sizing: border-box;
-        font-family: 'CustomFont', sans-serif;
-        font-size: 1.6rem;
     }
 }

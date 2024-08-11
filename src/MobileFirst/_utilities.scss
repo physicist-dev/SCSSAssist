@@ -28,6 +28,11 @@
 
 //Font-size
 
+/*
+    This are the new Fluid Typography.
+    you don't have to add media query for fonts
+*/
+
 h1{
     font-size: clamp(6rem,calc(5vw + 1rem), 8rem);
 }
