@@ -1,0 +1,25 @@
+@mixin reset{
+    *,::after,::before{
+        margin: 0;
+        padding: 0;
+        box-sizing: inherit;
+    }
+
+    a{
+        text-decoration: none ;
+    }
+
+    ul{
+        list-style: none;
+    }
+
+    html{
+        font-size: 62.5%;
+    }
+
+    body{
+        box-sizing: border-box;
+        font-family: 'CustomFont', sans-serif;
+        font-size: 1.6rem;
+    }
+}
